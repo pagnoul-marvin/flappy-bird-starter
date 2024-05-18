@@ -1,5 +1,3 @@
-import {IAnimatable} from "../Types/IAnimatable";
-
 export abstract class Drawable {
     protected canvas: HTMLCanvasElement;
     protected ctx: CanvasRenderingContext2D;

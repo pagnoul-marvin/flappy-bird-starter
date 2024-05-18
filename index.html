@@ -1,13 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Flappy Bird</title>
-    <link href="./src/scss/main.scss" rel="stylesheet">
+    <link rel="stylesheet" href="src/scss/main.scss">
+    <title>MMI - Multimédia Intéractif | request-animation-frame</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#9f00a7">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-<h1>Flappy Bird</h1>
-<canvas height="511" id="game" width="288"></canvas>
-<script type="module" src="src/ts/flappy/main.ts"></script>
+<canvas width="350" height="600" class="canvas" id="my-canvas">
+    Texte alternatif à destination des navigateurs qui ne supportent pas canvas.
+</canvas>
+<script type="module" src="src/ts/main.ts"></script>
 </body>
 </html>

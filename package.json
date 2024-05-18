@@ -1,15 +1,12 @@
 {
-  "name": "flappy-bird-student",
+  "name": "projet-mmi-2024",
   "version": "1.0.0",
-  "description": "> A simple implementation of the main Flappy Bird",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Daniel <daniel.schreurs@hepl.be>",
+  "description": "> A JS exercise use at HEPL for MMI.",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.72.0",
-    "vite": "^5.2.1"
+    "sass": "^1.70.0",
+    "vite": "^5.2.8"
   }
 }
